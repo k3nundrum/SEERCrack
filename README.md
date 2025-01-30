@@ -35,7 +35,7 @@ impacket-secretsdump -target-ip <IP> administrator@victim.local
 
 # 2️⃣ **Parse & Organize Extracted Hashes.**
 
-Run `seer_extract.py` to extract and organize different hash types.  
+Run `seer_extract.py` to extract and organize different hash types from the output of an impacket secretsdump run.  
 What Happens?  
 - Extracts NTLM, LM, and DCC2 hashes.
 - Saves them into separate files.
