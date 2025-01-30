@@ -1,5 +1,5 @@
 # SeerCrack 
-![alt text](image-4.png)
+![alt text](/assets/image-4.png)
 ---
 
 🚀 SeerCrack is an NTDS & Secretsdump Hash Extraction & Cracking Automation toolset for automating the extraction, cracking, and correlation of Windows authentication hashes from Active Directory domain controllers (NTDS.dit) and live Windows hosts using secretsdump.py.
@@ -43,7 +43,7 @@ What Happens?
 
 🔹 Example Output:
 
-![alt text](image-1.png)
+![alt text](/assets/image-1.png)
 
 # **3️⃣ Crack Hashes with Hashcat**.   
 Use the commands printed in the previous step to crack the hashes.
@@ -65,7 +65,7 @@ hashcat -m 2100 -a 0 dcc_hashes.txt wordlist.txt
 Once hashes are cracked, map them back to usernames using `seer_match.py` and the `hashcat.potfile`:
 
 🔹 Example Output:
-![alt text](image-3.png)
+![alt text](/assets/image-3.png)
 📌 All matched credentials are saved in cracked_results.txt and displayed in console.
 
 
@@ -88,4 +88,4 @@ Open to pull requests and improvements! Feel free to contribute.
 
 🔥 Star this repo, fork it, and start cracking! 🔥
 
-![alt text](image-5.png)
+![alt text](/assets/image-5.png)
